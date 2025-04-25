@@ -3,5 +3,5 @@ services:
   vite-app:
     build: .
     ports:
-      - "3000:80"
-    container_name: vite_docker_app
+      - "3001:80"
+    container_name: Lemonwpapi_app
