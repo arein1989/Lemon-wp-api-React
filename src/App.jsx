@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Shop from './pages/Shop';
 import 'bulma/css/bulma.min.css';
-import Cart from './pages/cart';
+import Cart from './pages/Cart';
 import ChickOut from './pages/ChickOut';
 import Tak from './pages/Tak';
 

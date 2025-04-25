@@ -3,7 +3,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import 'bulma/css/bulma.min.css';
-import { clearCart } from '../redux/cartSlice';
+import { clearCart } from '../Redux/cartSlice';
 
 export default function CheckOut() {
     const navigate = useNavigate();

@@ -1,7 +1,7 @@
 // Cart.jsx
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeFromCart, updateQuantity } from '../redux/cartSlice';
+import { removeFromCart, updateQuantity } from '../Redux/cartSlice';
 import 'bulma/css/bulma.min.css';
 import Navbar from '../components/navbar';
 import { useNavigate } from 'react-router-dom';
