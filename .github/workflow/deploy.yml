@@ -1,4 +1,4 @@
-name: Deploy Lemonade-app 2
+name: Deploy Lemon-wp-api-React
  
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          repository: arein1989/lemonade-app-2
+          repository: arein1989/Lemon-wp-api-React
  
       - name: Install Dependencies
         run: npm install || echo "No dependencies to install"
@@ -27,4 +27,4 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v2
         with:
-            path: lemonade-app-2/
+            path: Lemon-wp-api-React/
