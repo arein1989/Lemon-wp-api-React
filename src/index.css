@@ -1,0 +1,27 @@
+:root {
+  font-family: 'Lora', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  
+  color: #F0F0F0;
+  background-color: #1E2B18;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  background-image: url(./assets/lemonbg3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
