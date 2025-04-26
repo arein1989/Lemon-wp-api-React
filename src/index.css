@@ -12,6 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.navbar-item.has-text-white:hover {
+  color: #1E2B18 !important; /* Guld farve ved hover */
+}
 
 .container {
   background-image: url(./assets/lemonbg3.png);
