@@ -4,4 +4,4 @@ services:
     build: .
     ports:
       - "3001:80"
-    container_name: Lemonwpapi_app
+    container_name: Lemonwpapi_app_new
