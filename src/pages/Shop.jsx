@@ -19,7 +19,7 @@ function Shop() {
         image: product.image,
       })
     );
-    alert(`${product.name} er tilføjet til kurven!`);
+    alert(`${product.name} has been added to cart!`);
   };
 
   // Function to extract description from content
@@ -121,7 +121,7 @@ function Shop() {
       <h1 className="title mx-6 mt-4" style={{ color: '#F0F0F0' }}>
         Our Drinks
       </h1>
-      <div>
+      <div className=' is-multiline'>
         {products.map((product, index) => (
           <div
             key={product.id}
@@ -140,7 +140,7 @@ function Shop() {
                   <img
                     src={product.image}
                     alt={product.name}
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'cover', overflow: 'hidden' }}
                     onError={(e) => {
                       e.target.src =
                         'https://via.placeholder.com/400x300?text=Lemonade';
