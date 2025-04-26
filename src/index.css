@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.navbar-item.has-text-white:hover {
+.navbar-item:hover {
   color: #1E2B18 !important; /* Guld farve ved hover */
 }
 
